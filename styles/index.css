@@ -1,0 +1,140 @@
+.relative-section{
+    position: relative;
+    display: flex;
+}
+
+.relative-section input {
+    flex: 1;
+    margin-right: 220px;
+}
+
+.order-now-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: -1;
+    bottom: 0;
+    z-index: 1;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    margin-right:  190px;
+}
+
+.promo-section {
+    padding: 20px;
+}
+
+.promo-section .text {
+    flex: 1;
+}
+
+.promo-section .scooter {
+    width: 100px;
+    height: auto;
+}
+
+.promo-section .text span {
+    color: green;
+}
+
+.promo-section .text .deals {
+    color: red;
+}
+
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.quote-section .quote-icon {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+.quote-section .quote-text {
+    font-size: 18px;
+}
+
+.food-category {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+    flex: 1;
+}
+
+.food-category img {
+    width: 50px;
+    height: 50px;
+}
+
+.how-to-order-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.how-to-order-section h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.order-step {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.order-step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.order-step span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+
+.newsletter-section {
+    background-color: #fff1f0;
+    padding: 40px 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter-section h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.newsletter-section p {
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+.footer a {
+
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-section {
+    margin-bottom: 20px;
+
+}
